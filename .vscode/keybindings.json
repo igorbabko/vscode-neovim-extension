@@ -4,5 +4,15 @@
     "key": "j",
     "when": "neovim.mode == insert && editorTextFocus",
     "args": "j"
+  },
+  {
+    "key": "k",
+    "command": "list.focusDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "l",
+    "command": "list.focusUp",
+    "when": "listFocus && !inputFocus"
   }
 ]
