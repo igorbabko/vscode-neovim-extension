@@ -1,3 +1,12 @@
+-- <leader> key
+vim.g.mapleader = ' '
+
+-- open config
+vim.cmd('nmap <leader>c :e ~/.config/nvim/init.lua<cr>')
+
+-- save
+vim.cmd('nmap <leader>s :w<cr>')
+
 -- motion keys (left, down, up, right)
 vim.keymap.set({ 'n', 'v' }, 'j', 'h')
 vim.keymap.set({ 'n', 'v' }, 'k', 'j')
